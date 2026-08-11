@@ -1,0 +1,13 @@
+[package]
+name = "superview-rs"
+version = "3.1.8"
+edition = "2024"
+description = "Dynamic video stretching (4:3 to 16:9) using a non-linear quadratic algorithm"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+anyhow = "1"
+ctrlc = "3.5.2"
